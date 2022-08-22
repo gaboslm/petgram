@@ -8,7 +8,7 @@ interface Props {
 	path: string
 }
 
-export function Category({
+export function CategoryCard({
 	name = '',
 	image = DEFAULT_IMAGE,
 	path = '',
