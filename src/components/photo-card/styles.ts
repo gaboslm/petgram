@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { FadeIn } from "../../styles/animation";
+import { FadeIn, Liked } from "../../styles/animation";
 
 
 export const ImgWrapper = styled.div`
@@ -10,6 +10,14 @@ export const ImgWrapper = styled.div`
     padding: 56.25% 0 0 0;
     position: relative;
     width: 100%;
+    .interaction {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        ${Liked({ time: '2s', type: 'ease-in' })}
+    }
 `
 
 export const Img = styled.img`
@@ -20,6 +28,7 @@ export const Img = styled.img`
     position: absolute;
     top: 0;
     width: 100%;
+    cursor:'pointer';
 `
 
 export const Button = styled.button`

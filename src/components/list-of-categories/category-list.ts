@@ -1,44 +1,46 @@
-export const CategoryList = [
+import { Category } from "../../models/category";
+
+export const CategoryList: Category[] = [
 	{
 		"id": 1,
 		"name": "cats",
 		"emoji": "🐱",
-		"image": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_cats.jpg",
+		"cover": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_cats.jpg",
 		"path": "/photos/cats",
 	},
 	{
 		"id": 2,
 		"name": "dogs",
 		"emoji": "🐶",
-		"image": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_dogs.jpg",
+		"cover": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_dogs.jpg",
 		"path": "/photos/dogs",
 	},
 	{
 		"id": 3,
 		"name": "hamsters",
 		"emoji": "🐹",
-		"image": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_hamsters.jpg",
+		"cover": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_hamsters.jpg",
 		"path": "/photos/hamsters",
 	},
 	{
 		"id": 4,
 		"name": "rabbits",
 		"emoji": "🐰",
-		"image": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_rabbits.jpg",
+		"cover": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_rabbits.jpg",
 		"path": "/photos/rabbits",
 	},
 	{
 		"id": 5,
 		"name": "birds",
 		"emoji": "🐦",
-		"image": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_birds.jpg",
+		"cover": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_birds.jpg",
 		"path": "/photos/birds",
 	},
 	{
 		"id": 6,
 		"name": "fishes",
 		"emoji": "🐠",
-		"image": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_fishes.jpg",
+		"cover": "https://res.cloudinary.com/midudev/image/upload/w_150/v1555671700/category_fishes.jpg",
 		"path": "/photos/fishes",
 	},
 ]

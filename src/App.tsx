@@ -1,15 +1,13 @@
 import { Fragment } from 'react'
 import { GlobalStyle } from './styles/global'
-import { Logo } from './components/logo'
-import { ListOfCategories } from './components/list-of-categories'
 import { ListOfPhotoCards } from './components/list-of-photo-cards'
+import { TopBar } from './components/topbar'
 
 export function App(): JSX.Element {
 	return (
 		<Fragment>
 			<GlobalStyle />
-			<Logo />
-			<ListOfCategories />
+			<TopBar />
 			<ListOfPhotoCards />
 		</Fragment>
 	)
